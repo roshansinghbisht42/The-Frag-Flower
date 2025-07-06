@@ -18,8 +18,8 @@ A flower-themed interactive website created as a post-login landing page. Each f
 
 - **HTML5**
 - **CSS3**
-- **JavaScript** (optional if used)
-- Optional integration with **Firebase Authentication** (if used for login)
+- **JavaScript** 
+- Optional integration with **Firebase Authentication** 
 
 ---
 
