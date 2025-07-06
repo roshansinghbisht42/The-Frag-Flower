@@ -4,9 +4,7 @@ A flower-themed interactive website created as a post-login landing page. Each f
 
 ## 🔗 Live Demo
 
-[View Live Site](https://your-live-site-link.com)
-
-> Replace with your live site link if hosted.
+[View Live Site](https://frag-flower.web.app)
 
 ---
 
