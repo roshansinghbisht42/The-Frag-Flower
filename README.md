@@ -10,7 +10,7 @@ A flower-themed interactive website created as a post-login landing page. Each f
 -  Beautiful flower-themed layout
 -  Each flower redirects to its Wikipedia page for detailed information
 -  Responsive design for desktop and mobile
--  Styled with modern CSS (including glassmorphism/hover effects if added)
+-  Styled with modern CSS (including glassmorphism/hover effects)
 
 ---
 
