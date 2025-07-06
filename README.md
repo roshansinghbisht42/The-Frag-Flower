@@ -2,9 +2,6 @@
 
 A flower-themed interactive website created as a post-login landing page. Each flower on the page links directly to its corresponding Wikipedia article, helping users learn more about different flowers with a clean and engaging UI.
 
-## 🔗 Live Demo
-
-[View Live Site](https://Frag-Flower.web.app)
 
 ---
 
