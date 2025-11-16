@@ -8,6 +8,7 @@
 }
 
 body {
+    transition: background-color 0.4s ease, color 0.4s ease;
     font-family: "Poppins", sans-serif;
     background: linear-gradient(to bottom right, #fff1f4, #ffe0ec);
     color: #333;
