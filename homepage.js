@@ -1,7 +1,3 @@
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
   // Dark mode toggle logic
   const themeToggleBtn = document.getElementById("themeToggleBtn");
