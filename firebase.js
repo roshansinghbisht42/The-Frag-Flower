@@ -3,13 +3,13 @@ import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} fro
 import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
 
 const firebaseConfig = {
-     apiKey: "AIzaSyBYsfgkixDKXTzfKCQUzxECY9gVLXJa6SM",
-  authDomain: "frag-flower-2df04.firebaseapp.com",
-  projectId: "frag-flower-2df04",
-  storageBucket: "frag-flower-2df04.firebasestorage.app",
-  messagingSenderId: "652320859638",
-  appId: "1:652320859638:web:aedefc56cd0d49de1793d7",
-  measurementId: "G-1MKE5WPZV9"
+     apiKey: "AIzaSyB9pzLT7ch05sjJz5H2douGv87-PtDAC3Q",
+  authDomain: "website-845bb.firebaseapp.com",
+  projectId: "website-845bb",
+  storageBucket: "website-845bb.firebasestorage.app",
+  messagingSenderId: "297985766481",
+  appId: "1:297985766481:web:924418a3a3432e0d30f470",
+  measurementId: "G-MZW99FXFY0"
 };
 
 // Initialize Firebase
