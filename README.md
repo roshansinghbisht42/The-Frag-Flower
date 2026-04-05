@@ -18,7 +18,7 @@ Frag Flower is a responsive web application designed to showcase and explore fra
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend/Services:** Firebase Authentication  
-- **Database:** Firebase (if used)  
+- **Database:** Firebase   
 
 ---
 
