@@ -3,13 +3,13 @@ import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} fro
 import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCTuZD5H2nvTKA4-iTLCPsyl0DJ7Gan1zI",
-    authDomain: "roshan-3139a.firebaseapp.com",
-    projectId: "roshan-3139a",
-    storageBucket: "roshan-3139a.firebasestorage.app",
-    messagingSenderId: "920064613682",
-    appId: "1:920064613682:web:e5e504cc49445e33434b2b",
-    measurementId: "G-JVYTER2243"
+     apiKey: "AIzaSyBYsfgkixDKXTzfKCQUzxECY9gVLXJa6SM",
+  authDomain: "frag-flower-2df04.firebaseapp.com",
+  projectId: "frag-flower-2df04",
+  storageBucket: "frag-flower-2df04.firebasestorage.app",
+  messagingSenderId: "652320859638",
+  appId: "1:652320859638:web:aedefc56cd0d49de1793d7",
+  measurementId: "G-1MKE5WPZV9"
 };
 
 // Initialize Firebase
@@ -81,11 +81,11 @@ signIn.addEventListener('click', (event)=>{
    })
    .catch((error)=>{
        const errorCode=error.code;
-       if(errorCode==='auth/invalid-credential'){
+       if(errorCode==='auth/wrong-password' || errorCode==='auth/user-not-found' || errorCode==='auth/invalid-email'){
            showMessage('Incorrect Email or Password', 'signInMessage');
        }
        else{
-           showMessage('Account does not Exist', 'signInMessage');
+           showMessage('Unable to sign in. Please try again.', 'signInMessage');
        }
    })
 })
