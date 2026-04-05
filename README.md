@@ -45,4 +45,4 @@ This project demonstrates frontend development skills along with user authentica
 
 ---
 
-## 📂 Project Structure
+
