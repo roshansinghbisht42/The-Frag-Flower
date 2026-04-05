@@ -20,10 +20,10 @@ body {
     width: 420px;
     padding: 30px;
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.35);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(12px);
-    box-shadow: 0 3px 14px rgba(240, 147, 147, 0.822);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
     text-align: center;
     transition: transform 0.3s ease-in-out;
     color: white;
@@ -53,9 +53,9 @@ h1.form-title {
 .input-group input {
     width: 100%;
     padding: 12px 12px 12px 35px;
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.7);
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.12);
     color: white;
     font-size: 16px;
     outline: none;
@@ -63,7 +63,7 @@ h1.form-title {
 }
 
 .input-group input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .input-group input:focus {
@@ -81,7 +81,7 @@ h1.form-title {
     padding: 12px;
     border: none;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.25);
     color: white;
     font-weight: bold;
     font-size: 16px;
@@ -90,7 +90,7 @@ h1.form-title {
 }
 
 .btn:hover {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.45);
     transform: scale(1.05);
 }
 
